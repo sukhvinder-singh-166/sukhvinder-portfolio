@@ -21,13 +21,13 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-center">
           <Link
             href={EMAIL}
-            className="mx-auto flex items-center gap-x-2 font-bold lg:text-[36px] text-[24px] text-center text-white"
+            className="mx-auto flex items-center gap-x-2 font-bold lg:text-[36px] sm:text-[24px] text-xl text-center text-white"
           >
             <IconEmail /> monudhaka829@gmail.com
           </Link>
           <Link
             href={PHONENO}
-            className="mx-auto flex items-center gap-x-2 font-bold lg:text-[36px] text-[24px] text-center text-white mt-5"
+            className="mx-auto flex items-center gap-x-2 font-bold lg:text-[36px] sm:text-[24px] text-xl text-center text-white mt-5"
           >
             <PhoneIcon /> +91 9306922645
           </Link>
