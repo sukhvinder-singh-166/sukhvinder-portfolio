@@ -2,36 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { LinkIcon } from "./common/Icons";
+import { PROJECTSDETAIL } from "./common/Helper";
 
 const Work = () => {
-  const PROJECTSDETAIL = [
-    {
-      image: "/assets/images/png/clear-talk.png",
-      title: "ClearTalk",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
-      library: ["React", "Next", "Tailwind"],
-      link: "https://cleartalk.ai",
-    },
-    {
-      image: "/assets/images/png/clear-talk.png",
-      title: "ClearTalk",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
-      library: ["React", "Next", "Tailwind"],
-      link: "https://cleartalk.ai",
-    },
-    {
-      image: "/assets/images/png/clear-talk.png",
-      title: "ClearTalk",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
-      library: ["React", "Next", "Tailwind"],
-      link: "https://cleartalk.ai",
-    },
-  ];
+  
   return (
-    <div className="bg-[#030712] lg:py-[96px] py-10">
+    <div className="bg-[#030712] lg:py-[96px] py-10" id="projects">
       <div className="max-w-[1280px] mx-auto px-4 w-full">
         <div className="flex flex-col items-center">
           <h2 className="text-white text-base bg-[#374151] font-bold mb-10 px-3 py-1 mx-auto rounded-xl">

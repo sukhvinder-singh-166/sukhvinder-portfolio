@@ -52,3 +52,29 @@ export const SKILLS = [
   { name: "Netlify", icon: <NetlifyIcon /> },
   { name: "MySQL", icon: <MySQLIcon /> },
 ];
+export const PROJECTSDETAIL = [
+  {
+    image: "/assets/images/png/clear-talk.png",
+    title: "ClearTalk",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    library: ["React", "Next", "Tailwind"],
+    link: "https://cleartalk.ai",
+  },
+  {
+    image: "/assets/images/png/clear-talk.png",
+    title: "ClearTalk",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    library: ["React", "Next", "Tailwind"],
+    link: "https://cleartalk.ai",
+  },
+  {
+    image: "/assets/images/png/clear-talk.png",
+    title: "ClearTalk",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    library: ["React", "Next", "Tailwind"],
+    link: "https://cleartalk.ai",
+  },
+];
