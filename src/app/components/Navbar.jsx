@@ -19,7 +19,7 @@ export default function Navbar() {
     <nav className="py-4 bg-[#030712] text-white">
       <div className="max-w-[1280px] px-4 mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="font-bold xl:text-[30px] relative z-20 lg:text-xl text-lg uppercase">
+        <div className="font-bold xl:text-[30px] relative z-30 lg:text-xl text-lg uppercase">
           <Link href="/">Sukhvinder Singh</Link>
         </div>
 
@@ -45,7 +45,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden relative z-20">
+        <div className="md:hidden relative z-30">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="text-white text-2xl"
@@ -58,7 +58,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
 
       <div
-        className={`fixed top-0 left-0 w-full h-full min-h-screen flex flex-col justify-center items-center bg-[#030712] z-10 ${
+        className={`fixed top-0 left-0 w-full h-full min-h-screen flex flex-col justify-center items-center bg-[#030712] z-20 ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300`}
       >
