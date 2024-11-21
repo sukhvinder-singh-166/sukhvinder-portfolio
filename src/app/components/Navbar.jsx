@@ -26,8 +26,8 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="items-center md:flex hidden">
           <ul className="flex gap-5">
-            {NAVLINKS.map((link) => (
-              <li key={link.href}>
+            {NAVLINKS.map((link, index) => (
+              <li key={index}>
                 <Link
                   className="text-[#D1D5DB] font-medium relative transition-all duration-300 after:transition-all after:duration-300 after:content-[''] after:absolute after:bottom-[-50%] after:left-0 after:w-full after:h-[2px] after:bg-white after:opacity-0 hover:after:opacity-100"
                   href={link.href}

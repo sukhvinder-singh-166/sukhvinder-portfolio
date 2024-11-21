@@ -1,5 +1,6 @@
 import AboutMe from "./components/AboutMe";
 import Hero from "./components/Hero";
+import Skill from "./components/Skill";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         <Hero />
       </div>
       <AboutMe />
+      <Skill />
     </>
   );
 }
