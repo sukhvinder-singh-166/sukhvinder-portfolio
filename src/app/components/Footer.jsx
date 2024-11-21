@@ -6,7 +6,7 @@ import { SOCIAL_MEDIA } from "./common/Helper";
 
 const Footer = () => {
   return (
-    <div className=" bg-[#111827]  py-10">
+    <div className=" bg-[#111827] py-10">
       <div className="max-w-[1280px] mx-auto px-4 w-full">
         <div className="flex flex-col items-center mb-4">
           <h2 className="text-white text-base bg-[#374151] font-bold mb-5 px-3 py-1 mx-auto rounded-xl">

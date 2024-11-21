@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Skill from "./components/Skill";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
+import Work from "./components/Work";
 export default function Home() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutMe />
       <Skill />
       <Experience />
+      <Work />
       <Footer />
     </>
   );

@@ -5,11 +5,11 @@ const AboutMe = () => {
   return (
     <div className="bg-[#111827] lg:py-[96px] py-10">
       <div className="max-w-[1280px] mx-auto px-4 w-full">
-        <div className="flex flex-col items-center">
+        {/* <div className="flex flex-col items-center">
           <h2 className="text-white text-base bg-[#374151] font-bold mb-10 px-3 py-1 mx-auto rounded-xl">
             About Me
           </h2>
-        </div>
+        </div> */}
         <div className="flex flex-wrap">
           <div className="w-full md:w-6/12 lg:mx-0 mx-auto flex justify-center">
             <div className="flex justify-center lg:w-[400px] lg:max-h-[480px] w-[300px] lg:max-w-[400px] max-h-[320px] relative">
