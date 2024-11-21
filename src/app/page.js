@@ -2,15 +2,17 @@ import AboutMe from "./components/AboutMe";
 import Hero from "./components/Hero";
 import Skill from "./components/Skill";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
-      <div className="bg-[rgb(3,7,18)]">
+      <div className="bg-[#030712]">
         <Hero />
       </div>
       <AboutMe />
       <Skill />
       <Experience />
+      <Footer />
     </>
   );
 }
