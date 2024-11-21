@@ -16,7 +16,7 @@ export default function Navbar() {
   }, [isMenuOpen]);
 
   return (
-    <nav className="py-4 bg-[#030712] text-white">
+    <nav className="py-5 bg-[#030712] text-white">
       <div className="max-w-[1280px] px-4 mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="font-bold xl:text-[30px] relative z-30 lg:text-xl text-lg uppercase">

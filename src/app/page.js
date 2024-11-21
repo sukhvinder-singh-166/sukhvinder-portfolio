@@ -1,3 +1,4 @@
+import AboutMe from "./components/AboutMe";
 import Hero from "./components/Hero";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
       <div className="bg-[#030712]">
         <Hero />
       </div>
+      <AboutMe />
     </>
   );
 }

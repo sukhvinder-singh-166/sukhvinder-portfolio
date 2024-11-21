@@ -6,9 +6,9 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="bg-[#030712] min-h-screen flex flex-col">
+    <div className="bg-[#030712] md:min-h-screen flex flex-col">
       <Navbar />
-      <div className="grow max-w-[1280px] mx-auto px-4 w-full flex flex-col justify-center">
+      <div className="grow max-w-[1280px] mx-auto px-4 w-full flex md:py-0 py-10 flex-col justify-center">
         <div className=" flex flex-wrap flex-col-reverse lg:flex-row lg:items-center">
           <div className="w-full lg:w-8/12 lg:mt-0 mt-10 lg:mx-0 mx-auto lg:text-start text-center">
             <h1 className="text-white md:text-[40px] text-[30px] xl:text-[60px] font-bold">
@@ -40,7 +40,7 @@ const Hero = () => {
                 width={280}
                 height={320}
               />
-              <div className="max-w-[280px] max-h-[320px] w-full h-full absolute top-[30px] left-[30px] blur-[10px] bg-[#374151]"></div>
+              <div className="max-w-[280px] sm:flex hidden max-h-[320px] w-full h-full absolute top-[30px] left-[30px] blur-[10px] bg-[#374151]"></div>
             </div>
           </div>
         </div>
